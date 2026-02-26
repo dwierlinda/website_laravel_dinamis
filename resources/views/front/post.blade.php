@@ -1,3 +1,4 @@
+<!-- VIEW: front/post.blade.php -->
 <x-blog-layout title="{{ $post_title }}">
 
     <section class="w-full lg:w-2/3 flex flex-col mx-auto space-y-10">
