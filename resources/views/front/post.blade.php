@@ -5,11 +5,11 @@
         {{-- Main Post --}}
         <article class="bg-white rounded-3xl shadow-lg border border-gray-100 overflow-hidden">
 
-            {{-- Image --}}
-            @if ($post->image)
-                <img src="{{ $post->image }}" alt="{{ $post->title }}" width="1000" height="500"
-                    class="w-full h-72 sm:h-96 object-cover">
-            @endif
+           {{-- Image --}}
+            <img src="{{ asset('images/erlinda.jepg') }}"
+            alt="Foto aku"
+            width="1000" height="500"
+            class="w-full h-72 sm:h-96 object-cover">
 
             <div class="p-6 sm:p-8 space-y-4">
 
