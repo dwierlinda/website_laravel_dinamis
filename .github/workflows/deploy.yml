@@ -20,7 +20,7 @@ jobs:
         key: ${{ secrets.SSH_PRIVATE_KEY }}
         port: ${{ secrets.SSH_PORT }}
         script: |
-          cd /var/www/dwipp
+          cd /var/www/dwip
           git pull origin main
           composer install --no-dev
           php artisan migrate --force
